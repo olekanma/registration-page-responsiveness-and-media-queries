@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background-image: url("bg-intro-mobile.png");
+  background-repeat: no-repeat;
+  background-color: hsl(0, 100%, 74%);
+  display: flex;
+  height: 100%;
+  width: auto;
+}
+h2 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 33px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -82px;
+  margin-bottom: 0px;
+  margin-left: -60px;
+}
+p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  width: 153%;
+  text-align: center;
+  margin-left: -88px;
+  padding-bottom: 2;
+  margin-top: 28px;
+}
+.one {
+  margin: 150px 30px 150px 100px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.top-button {
+  padding: 20px;
+  margin: 5px 20px 5px 20px;
+  background-color: hsl(248, 32%, 49%);
+  width: 80px;
+  height: 80px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+.input {
+  margin: 306px 10px 2px -506px;
+  padding: 10px 200px 10px 0px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+input {
+  width: 90%;
+  margin: 10px;
+  padding: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+button {
+  width: 93%;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 4px;
+  color: white;
+  background-color: hsl(154, 59%, 51%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  border: 2px solid hsl(154, 59%, 51%);
+}
+.btn1 {
+  width: 96%;
+  padding: 15px;
+  border-radius: 4px;
+  color: white;
+  background-color: hsl(248, 32%, 49%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  border: 2px solid hsl(248, 32%, 49%);
+  box-shadow: rgb(139 124 124) 5px 5px 5px;
+  margin-left: 174px;
+  font-size: 12px;
+}
+
+.main {
+  background-color: white;
+  border: 2 px solid white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  margin-left: 57%;
+}
+.main p {
+  color: rgb(161, 154, 154);
+  text-align: center;
+  font-size: 14px;
+  margin-left: 31px;
+  margin-left: 21px;
+  width: 85%;
+  line-height: 20px;
+  margin-right: 21px;
+  font-size: 10px;
+  /* margin-bottom: 5px; */
+  margin-top: 1px;
+}
+.main b {
+  color: hsl(0, 100%, 74%);
+}
+.main input {
+  border: 1px solid rgb(139 124 124);
+  border-radius: 4px;
+}
